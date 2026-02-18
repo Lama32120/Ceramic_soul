@@ -1,2 +1,73 @@
 @use "/src/sass/base/variables.scss" as *;
 
+.footer {
+    padding: 50px 0;
+    background-color: $dark;
+
+    &__header {
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: $light;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        color: $light;
+        font-style: normal;
+        line-height: normal;
+
+        &_spaced {
+            margin-top: 40px;
+        }
+    }
+    &__form {
+        margin-top: 40px;
+    }
+    &__input {
+        display: block;
+        width: 293px;
+        padding-bottom: 15px;
+        border: none;
+        background-color: transparent;
+        box-shadow: none;
+        border-bottom: 1px solid $ui-active;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: normal;
+        color: $ui-active;
+        &::placeholder {
+            color: $ui-active;
+            font-size: 14px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: normal;
+        }
+    }
+    &__check-block {
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        font-style: normal;
+        color: $light;
+        margin-top: 20px;
+        a {
+            margin-left: 4px;
+            text-decoration: none;
+            color: #a22dc6;
+        }
+    }
+    &__checkbox {
+        margin-right: 15px;
+        border: 1px solid $light;
+        border-radius: 2px;
+        width: 15px;
+        height: 15px;
+    }
+}
