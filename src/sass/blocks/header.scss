@@ -52,16 +52,16 @@
 
             span {
                 display: block;
-                width: 20px;
+                width: 20.5px;
                 height: 1px;
                 background-color: $dark;
 
                 &:nth-child(1) {
-                    transform: translateY(8px) rotate(45deg)
+                    transform: translateY(9px) rotate(45deg)
                 }
 
                 &:nth-child(2) {
-                    transform: translateY(8px) rotate(-45deg)
+                    transform: translateY(9px) rotate(-45deg)
                 }
             }
         }
