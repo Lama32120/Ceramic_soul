@@ -1,4 +1,5 @@
 @use "/src/sass/base/variables.scss" as *;
+@use "/src/sass/base/mixins.scss" as *;
 
 .catalog {
     padding-top: 50px;
@@ -89,26 +90,7 @@
         &__content {
             padding: 10px;
             position: relative;
-
-            &::after {
-                content: '';
-                position: absolute;
-                height: 1px;
-                width: 200px;
-                background-color: $dark;
-                left: 0;
-                top: 0;
-            }
-
-            &::before {
-                content: '';
-                position: absolute;
-                height: 200px;
-                width: 1px;
-                background-color: $dark;
-                left: 0;
-                top: 0;
-            }
+            @include angle-decoration;
 
             &-item {
                 align-items: flex-start;
