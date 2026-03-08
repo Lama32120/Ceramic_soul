@@ -2,10 +2,12 @@
 
 .touch {
     padding-top: 60px;
+
     .just-validate-error-field {
         border: none;
         outline: 1px solid $ui-error;
     }
+
     &__wrapper {
         margin-top: 60px;
     }
@@ -158,6 +160,7 @@
 @media screen and (min-width: 1920px) {
     .touch {
         padding-top: 100px;
+
         &__img {
             width: 100%;
             height: 356px;
@@ -179,6 +182,7 @@
         &__textarea {
             width: 300px;
         }
+
         &__vase {
             right: 75px;
         }
