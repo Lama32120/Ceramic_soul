@@ -70,6 +70,10 @@
         &__title {
             padding-left: 571px;
         }
+
+        &__cta {
+            animation: slideIn 3s;
+        }
     }
 }
 
@@ -96,7 +100,7 @@
         }
 
         &__potter {
-            
+
             height: 900px;
         }
     }
